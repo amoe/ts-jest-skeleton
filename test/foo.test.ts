@@ -1,4 +1,4 @@
-import { sum } from './sum-module';
+import { sum } from '../src/sum-module';
 
 test('basic', () => {
     expect(sum()).toBe(0);
